@@ -10,7 +10,7 @@ public class AtmSystem {
 		 int accountCount=0;
 		
 		 AdminLogin admin = new AdminLogin();
-		 ATM atm = new ATM();
+		 AccountLogin atm = new AccountLogin();
 		 
 		 public void atm_start() throws InsufficientBalance, AccountNotFound, InvalidCrediential {
 				while(true) {

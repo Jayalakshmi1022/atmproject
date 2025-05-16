@@ -30,7 +30,7 @@ private static final String ADMIN_PIN = "Admin123";
     	 boolean found=false;
     	for(int i=0;i<accountCount;i++) {
 			if(accounts[i].getAccountNumber().equals(accountNumber)) {
-				accounts[i]=null;
+				accounts[i]=accounts[accountCount-1];
 				accountCount--;
 				System.out.println("Account Deleted Successfully..");
 				System.out.println("********************************");
